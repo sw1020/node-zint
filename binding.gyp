@@ -58,6 +58,14 @@
         "libpng/pngwutil.c",
       ],
 
+      "include_dirs":[
+        "/usr/local/Cellar/gd/2.1.1/include/",
+        "./node_modules/nan/"
+      ],
+      "libraries":[
+        "/usr/local/Cellar/gd/2.1.1/lib/libgd.dylib"
+      ],
+
     }
   ]
 }
