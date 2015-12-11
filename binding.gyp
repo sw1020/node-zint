@@ -2,7 +2,62 @@
   "targets": [
     {
       "target_name": "node-zint",
-      "sources": [ "node-zint.cpp" ]
+      "defines":[
+        "ZINT_VERSION"
+      ],
+      "sources": [
+        "node-zint.cpp",
+        "zint_lib/2of5.c",
+        "zint_lib/auspost.c",
+        "zint_lib/aztec.c",
+        "zint_lib/code.c",
+        "zint_lib/code1.c",
+        "zint_lib/code16k.c",
+        "zint_lib/code49.c",
+        "zint_lib/code128.c",
+        "zint_lib/common.c",
+        "zint_lib/composite.c",
+        "zint_lib/dmatrix.c",
+        "zint_lib/gridmtx.c",
+        "zint_lib/gs1.c",
+        "zint_lib/imail.c",
+        "zint_lib/large.c",
+        "zint_lib/library.c",
+        "zint_lib/maxicode.c",
+        "zint_lib/medical.c",
+        "zint_lib/pdf417.c",
+        "zint_lib/plessey.c",
+        "zint_lib/png.c",
+        "zint_lib/postal.c",
+        "zint_lib/ps.c",
+        "zint_lib/qr.c",
+        "zint_lib/reedsol.c",
+        "zint_lib/render.c",
+        "zint_lib/rss.c",
+        "zint_lib/svg.c",
+        "zint_lib/telepen.c",
+        "zint_lib/upcean.c",
+
+        "libpng/png.c",
+        "libpng/pngget.c",
+        "libpng/pngread.c",
+        "libpng/pngrutil.c",
+        "libpng/pngtrans.c",
+        "libpng/pngwrite.c",
+        "libpng/pngerror.c",
+        "libpng/pngmem.c",
+        "libpng/pngrio.c",
+        "libpng/pngset.c",
+        "libpng/pngvcrd.c",
+        "libpng/pngwtran.c",
+        "libpng/pnggccrd.c",
+        "libpng/pngpread.c",
+        "libpng/pngrtran.c",
+        "libpng/pngtest.c",
+        "libpng/pngwio.c",
+        "libpng/pngwutil.c",
+      ],
+
     }
   ]
 }
