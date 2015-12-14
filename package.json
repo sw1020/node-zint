@@ -1,0 +1,24 @@
+{
+  "name": "node-zint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sw1020/node-zint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/sw1020/node-zint/issues"
+  },
+  "homepage": "https://github.com/sw1020/node-zint#readme",
+  "dependencies": {
+    "nan": "^2.1.0"
+  }
+}
